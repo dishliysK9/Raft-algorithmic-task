@@ -1,6 +1,6 @@
 # TASK DESCRIPTION
 
-Georgi is with his herd of goats on the riverbank. He wants to ferry them across using a raft with a certain capacity, making no more than K trips. The goats are not identical - some are small, some are large, some are sick, etc. Georgi wants to # calculate the minimum capacity of the raft that would allow him to ferry all his N goats to the other side in no more than K trips. #
+Georgi is with his herd of goats on the riverbank. He wants to ferry them across using a raft with a certain capacity, making no more than K trips. The goats are not identical - some are small, some are large, some are sick, etc. Georgi wants to  calculate the minimum capacity of the raft that would allow him to ferry all his N goats to the other side in no more than K trips. 
 
 Since it matters which goats he will ferry in the first trip, which in the second, and so on, he chooses the following strategy: In each trip, he first puts the largest goat that fits, then the next largest one that fits with the first, then the next one that fits with the first two, and so on. After no other goat can fit, he ferries them to the other side, returns, and applies the same procedure with the remaining goats. If after the K-th trip there are still goats left, it means that the capacity of the raft is insufficient.
 
